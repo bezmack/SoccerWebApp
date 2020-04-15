@@ -7,7 +7,7 @@ const Team = (props) => {
   const individualPlayerProfile = PlayersData.map(player => 
     <TeamProfile key={player.id}  player={player} /> );
   return(
-    <div>
+    <div className="row">
       {individualPlayerProfile }
     </div> 
   );
