@@ -1,7 +1,12 @@
-.App {
-  text-align: center;
+.logo {
+    display: inline-block;
+    height: 100%;
+    margin-left:10px;
 }
 
+.logo>img {
+    vertical-align: middle
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -28,6 +33,63 @@
   color: #61dafb;
 }
 
+.card-image img{
+  height: 300px;
+}
+.aboutDetail{
+  text-align: center;
+}
+.subMenu {
+    border-bottom: 1px solid #e4e4e4;
+    height: 150px;
+     margin: 0;
+}
+.subMenu .subNav {
+    position: relative;
+    top: -65px;
+    z-index: 100;
+}
+.subMenu ul {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.subMenu ul li {
+    display: inline-block;
+    text-align: center;
+    height: 100pxpx;
+    padding: 0 30px 0 30px;
+    list-style: none;
+    vertical-align: top;
+}
+ .subMenu ul li span{
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+ } 
+ 
+.subMenu ul li i.large.material-icons {
+    color: #ee6e73;
+    background: red;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 1px;
+}
+
+.subMenu ul li a {
+    width: 92px;
+    display: block;
+    padding: 10px 0 0 0;
+    text-align: center;
+    font: 400 14px/125% 'Roboto Condensed',sans-serif;
+    color: #626262;
+}
+
+.slider .slides{
+  height: 440px!important 
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
