@@ -36,6 +36,9 @@
 .card-image img{
   height: 300px;
 }
+.aboutUs img{
+  width: 100%;
+}
 .aboutDetail{
   text-align: center;
 }
