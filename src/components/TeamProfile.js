@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 
-
 const TeamProfile = (props) => {
     return(
     <div class="col s12 m6 l4">
@@ -10,7 +9,7 @@ const TeamProfile = (props) => {
             </div>
             <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">{props.player.name}<i class="material-icons right">more_vert</i></span>
-            <p><a href="http://www.freetimelearning.com" target="_blank">Click Here!</a></p>
+            <p><a href="https://www.manutd.com/en" target="_blank">Click Here!</a></p>
             </div>
             <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">About the player<i class="material-icons right">close</i></span>
