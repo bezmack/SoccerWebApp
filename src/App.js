@@ -4,13 +4,13 @@ import AppRouter from './routers/AppRouter';
 
 class App extends Component{
   constructor(){
-    super() 
-    
+    super()
+
     }
 
     render(){
       return (
-        <div className="App">
+        <div className="AppContainer">
           <AppRouter />
         </div>
       );

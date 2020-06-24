@@ -5,6 +5,7 @@ import Team from '../components/Team';
 import Match from '../components/Match';
 import About from '../components/About';
 import Contacts from '../components/Contacts';
+import Weather from '../components/Weather';
 import NotFoundPage from '../components/NotFoundPage';
 import Header from '../components/Header';
 
@@ -18,6 +19,7 @@ const AppRouter = () => (
         <Route path="/match" component={Match} />
         <Route path="/about" component={About} />
         {/* <Route path={`/about/contacts`} component={Contacts} /> */}
+        <Route path="/weather" component={Weather} />
         <Route component={NotFoundPage} />
         <Route path={`/about/info`} component={Contacts} />
         <Route path={`/about/contacts`} component={Contacts} />
